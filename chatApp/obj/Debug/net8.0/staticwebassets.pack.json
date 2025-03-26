@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\40915282-7b59-4170-ba2a-d0c4515242ef_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\audio\\40915282-7b59-4170-ba2a-d0c4515242ef_voiceMessage.webm"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\45d4bb77-f820-43cc-94c8-cd4847418af8_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\audio\\45d4bb77-f820-43cc-94c8-cd4847418af8_voiceMessage.webm"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\00lpqlqk.il0.jpg",
+      "PackagePath": "staticwebassets\\images\\00lpqlqk.il0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\default_user.png",
+      "PackagePath": "staticwebassets\\images\\default_user.png"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\gfgvw4qd.fd3.jpg",
+      "PackagePath": "staticwebassets\\images\\gfgvw4qd.fd3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\hgfwfjzg.ztw.jpg",
+      "PackagePath": "staticwebassets\\images\\hgfwfjzg.ztw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\jejywzf5.bsu.jpg",
+      "PackagePath": "staticwebassets\\images\\jejywzf5.bsu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\kgekqmsk.wdr.jpg",
+      "PackagePath": "staticwebassets\\images\\kgekqmsk.wdr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\ljmaw14j.5qg.jpg",
+      "PackagePath": "staticwebassets\\images\\ljmaw14j.5qg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\lvnjqw02.syt.jpg",
+      "PackagePath": "staticwebassets\\images\\lvnjqw02.syt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\oh5nsuqk.jj1.jpeg",
+      "PackagePath": "staticwebassets\\images\\oh5nsuqk.jj1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\ywkql51j.sl4.jpg",
+      "PackagePath": "staticwebassets\\images\\ywkql51j.sl4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\yzyfnfqj.u5l.png",
+      "PackagePath": "staticwebassets\\images\\yzyfnfqj.u5l.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.chatApp.props",
+      "PackagePath": "build\\chatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.chatApp.props",
+      "PackagePath": "buildMultiTargeting\\chatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.chatApp.props",
+      "PackagePath": "buildTransitive\\chatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.chatApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.chatApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
