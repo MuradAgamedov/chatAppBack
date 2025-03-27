@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -182,13 +182,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MessagesController.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\MessagesController.cs",
               "RelativeDocumentMoniker": "chatApp\\Controllers\\MessagesController.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\MessagesController.cs",
               "RelativeToolTip": "chatApp\\Controllers\\MessagesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAswOMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T17:28:58.815Z",
               "EditorCaption": ""
@@ -208,13 +208,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\Message.cs",
               "RelativeDocumentMoniker": "chatApp\\Models\\Message.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\Message.cs",
               "RelativeToolTip": "chatApp\\Models\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T17:16:56.254Z",
               "EditorCaption": ""

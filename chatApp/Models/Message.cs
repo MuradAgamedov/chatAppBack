@@ -14,6 +14,8 @@ namespace chatApp.Models
 
         public string? Content { get; set; }
         public string? AudioPath { get; set; } // ✅ Buraya əlavə et
+        public string? VideoPath { get; set; }
+        public string? FilePath { get; set; }
 
         public DateTime SentAt { get; set; } = DateTime.UtcNow;
 

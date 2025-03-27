@@ -153,6 +153,48 @@
   },
   {
     "ContainingType": "chatApp.Controllers.MessagesController",
+    "Method": "UploadFile",
+    "RelativePath": "api/messages/upload-file",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "receiverId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chatApp.Controllers.MessagesController",
+    "Method": "UploadVideo",
+    "RelativePath": "api/messages/upload-video",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "receiverId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chatApp.Controllers.MessagesController",
     "Method": "GetMessagesWithUser",
     "RelativePath": "api/messages/with/{userId}",
     "HttpMethod": "GET",

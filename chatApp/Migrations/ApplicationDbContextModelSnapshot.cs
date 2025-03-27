@@ -243,6 +243,9 @@ namespace chatApp.Migrations
                     b.Property<string>("Content")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("FilePath")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsDeletedByReceiver")
                         .HasColumnType("bit");
 
@@ -259,6 +262,9 @@ namespace chatApp.Migrations
 
                     b.Property<DateTime>("SentAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("VideoPath")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

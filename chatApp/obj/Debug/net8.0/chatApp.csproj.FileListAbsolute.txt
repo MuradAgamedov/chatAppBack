@@ -148,4 +148,5 @@ C:\Users\TechEvo Computers\source\repos\chatApp\chatApp\bin\Debug\net8.0\Microso
 C:\Users\TechEvo Computers\source\repos\chatApp\chatApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\TechEvo Computers\source\repos\chatApp\chatApp\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\TechEvo Computers\source\repos\chatApp\chatApp\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\TechEvo Computers\source\repos\chatApp\chatApp\obj\Debug\net8.0\chatApp.sourcelink.json
 C:\Users\TechEvo Computers\source\repos\chatApp\chatApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
