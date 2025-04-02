@@ -10,6 +10,7 @@ namespace chatApp.Data
 
         public DbSet<Message> Messages { get; set; }
 
+        public DbSet<Status> Statuses { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

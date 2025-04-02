@@ -247,6 +247,37 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "chatApp.Controllers.StatusController",
+    "Method": "GetMyStatuses",
+    "RelativePath": "api/Status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chatApp.Controllers.StatusController",
+    "Method": "UploadStatus",
+    "RelativePath": "api/Status/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "chatApp.Controllers.UserController",
     "Method": "GetAllUsers",
     "RelativePath": "api/User/all",
