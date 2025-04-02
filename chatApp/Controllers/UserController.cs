@@ -25,16 +25,14 @@ namespace chatApp.Controllers
                 return BadRequest("Email не может быть пустым.");
             }
 
-            // Если аватар был загружен, сохраняем его
             if (avatarUrl != null)
             {
                 var avatarPath = await _imageService.SaveImageAsync(avatarUrl);
-                user.AvatarUrl = avatarPath;  // Обновляем путь к аватару
+                user.AvatarUrl = avatarPath; 
             }
             else if (user.AvatarUrl == null)
             {
-                // Если аватар не был передан и не задан текущий, возвращаем ошибку
-                user.AvatarUrl = "/images/default_user.png";  // Устанавливаем дефолтный аватар
+                user.AvatarUrl = "/images/default_user.png"; 
             }
 
             var result = await _userRepository.UpdateUserByEmailAsync(user.Email, user);

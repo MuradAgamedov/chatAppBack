@@ -201,6 +201,46 @@
             "description": "OK"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Messages"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditMessageRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditMessageRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditMessageRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/messages/is-online/{userId}": {
@@ -328,6 +368,37 @@
                 "receiverId": {
                   "style": "form"
                 }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/messages/react": {
+      "post": {
+        "tags": [
+          "Messages"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReactRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReactRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReactRequest"
               }
             }
           }
@@ -642,6 +713,16 @@
         },
         "additionalProperties": false
       },
+      "EditMessageRequest": {
+        "type": "object",
+        "properties": {
+          "content": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginRequest": {
         "type": "object",
         "properties": {
@@ -702,6 +783,40 @@
           },
           "isDeletedByReceiver": {
             "type": "boolean"
+          },
+          "reaction": {
+            "type": "string",
+            "nullable": true
+          },
+          "replyToMessageId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "replyToMessage": {
+            "$ref": "#/components/schemas/Message"
+          },
+          "isRead": {
+            "type": "boolean"
+          },
+          "readAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReactRequest": {
+        "type": "object",
+        "properties": {
+          "messageId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "reaction": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -741,6 +856,11 @@
           },
           "content": {
             "type": "string",
+            "nullable": true
+          },
+          "replyToMessageId": {
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           }
         },

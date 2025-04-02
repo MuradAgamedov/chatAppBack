@@ -27,40 +27,30 @@ namespace chatApp.Controllers
             _config = config;
         }
 
-        // ✅ CORS üçün OPTIONS metodu (Brauzerin preflight requesti üçün)
         [HttpOptions("register")]
         public IActionResult PreflightRegister()
         {
-            Response.Headers.Add("Access-Control-Allow-Origin", "*");
-            Response.Headers.Add("Access-Control-Allow-Methods", "POST, OPTIONS");
-            Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Authorization");
+            SetCorsHeaders();
             return Ok();
         }
 
         [HttpOptions("login")]
         public IActionResult PreflightLogin()
         {
-            Response.Headers.Add("Access-Control-Allow-Origin", "*");
-            Response.Headers.Add("Access-Control-Allow-Methods", "POST, OPTIONS");
-            Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Authorization");
+            SetCorsHeaders();
             return Ok();
         }
         [HttpPost("logout")]
         public IActionResult Logout()
         {
-            Response.Headers.Add("Access-Control-Allow-Origin", "*");
-            Response.Headers.Add("Access-Control-Allow-Methods", "POST, OPTIONS");
-            Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Authorization");
+            SetCorsHeaders();
 
             return Ok(new { message = "Çıxış uğurla tamamlandı." });
         }
-        // ✅ İstifadəçi qeydiyyatı
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
-            Response.Headers.Add("Access-Control-Allow-Origin", "*");
-            Response.Headers.Add("Access-Control-Allow-Methods", "POST, OPTIONS");
-            Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Authorization");
+            SetCorsHeaders();
 
             if (request == null || string.IsNullOrEmpty(request.Email) || string.IsNullOrEmpty(request.Password))
             {
@@ -69,21 +59,20 @@ namespace chatApp.Controllers
 
             var result = await _authService.RegisterUserAsync(request.FullName, request.Email, request.Password);
 
-            if (result.Contains("успешна")) // **Müvəffəqiyyət mesajı varsa**
+            if (result.Contains("успешна")) 
             {
-                return Ok(new { message = result }); // **201 yox, 200 OK qaytarırıq**
+                return Ok(new { message = result }); 
             }
 
             return BadRequest(new { message = "Регистрация не удалась." });
         }
 
-        // ✅ Email təsdiqləmə
         [HttpGet("confirm-email")]
         public async Task<IActionResult> ConfirmEmailAsync([FromQuery] string token, [FromQuery] string email)
         {
             var result = await _authService.ConfirmEmailAsync();
 
-            if (result.Contains("успешно")) // Əgər email təsdiqləndisə
+            if (result.Contains("успешно")) 
             {
                 Redirect("http://localhost:5173/auth/login");
             }
@@ -91,7 +80,6 @@ namespace chatApp.Controllers
             return BadRequest(new { message = result });
         }
 
-        // ✅ İstifadəçi girişi (Login)
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
@@ -105,7 +93,6 @@ namespace chatApp.Controllers
             if (!isPasswordValid)
                 return Unauthorized(new { message = "Неверный email или пароль." });
 
-            // **Emailin təsdiqini yoxlayırıq**
             if (!user.EmailConfirmed)
             {
                 return Unauthorized(new { message = "Пожалуйста, подтвердите ваш email перед входом." });
@@ -132,7 +119,6 @@ namespace chatApp.Controllers
 
 
 
-        // ✅ JWT Token yaratmaq
         private string GenerateJwtToken(ApplicationUser user)
         {
             var claims = new[]
@@ -155,7 +141,13 @@ namespace chatApp.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-        
+
+        private void SetCorsHeaders()
+        {
+            Response.Headers["Access-Control-Allow-Origin"] = "*";
+            Response.Headers["Access-Control-Allow-Methods"] = "POST, OPTIONS";
+            Response.Headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization";
+        }
 
 
     }

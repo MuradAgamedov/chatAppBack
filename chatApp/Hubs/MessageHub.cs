@@ -23,7 +23,7 @@ namespace chatApp.Hubs
             if (userId != null)
             {
                 OnlineUsers.Add(userId);
-                await Clients.All.SendAsync("UserConnected", userId); // ✅ Bütün client-lərə bildir
+                await Clients.All.SendAsync("UserConnected", userId); 
             }
 
             await base.OnConnectedAsync();
@@ -35,12 +35,16 @@ namespace chatApp.Hubs
             if (userId != null)
             {
                 OnlineUsers.Remove(userId);
-                await Clients.All.SendAsync("UserDisconnected", userId); // ✅ Bütün client-lərə bildir
+                await Clients.All.SendAsync("UserDisconnected", userId); 
             }
 
             await base.OnDisconnectedAsync(exception);
         }
-
+        public async Task SendRing(string receiverId)
+        {
+            var senderId = Context.UserIdentifier;
+            await Clients.User(receiverId).SendAsync("ReceiveRing", senderId);
+        }
 
     }
 }

@@ -20,7 +20,7 @@ namespace chatApp.Repositories
             return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
         }
 
-        // Метод для обновления данных пользователя по email
+
         public async Task<bool> UpdateUserByEmailAsync(string email, ApplicationUser user)
         {
             var existingUser = await GetUserByEmailAsync(email);

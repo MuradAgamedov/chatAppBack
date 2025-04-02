@@ -100,6 +100,27 @@
   },
   {
     "ContainingType": "chatApp.Controllers.MessagesController",
+    "Method": "EditMessage",
+    "RelativePath": "api/messages/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "chatApp.Models.EditMessageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chatApp.Controllers.MessagesController",
     "Method": "IsUserOnline",
     "RelativePath": "api/messages/is-online/{userId}",
     "HttpMethod": "GET",
@@ -109,6 +130,22 @@
       {
         "Name": "userId",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chatApp.Controllers.MessagesController",
+    "Method": "ReactToMessage",
+    "RelativePath": "api/messages/react",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "chatApp.Models.ReactRequest",
         "IsRequired": true
       }
     ],

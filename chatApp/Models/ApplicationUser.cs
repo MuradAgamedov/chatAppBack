@@ -7,11 +7,13 @@ namespace chatApp.Models
     {
    
         public string? FullName { get; set; }
-        [Column(TypeName = "NVARCHAR(MAX)")]  // Используем правильный тип данных для SQL Server
+        [Column(TypeName = "NVARCHAR(MAX)")]  
         public string? AvatarUrl { get; set; } = "/images/default_user.png";
         public string? Gender { get; set; }
 
-        public ICollection<Message> SentMessages { get; set; }
-        public ICollection<Message> ReceivedMessages { get; set; }
+        public ICollection<Message>? SentMessages { get; set; }
+        public ICollection<Message>? ReceivedMessages { get; set; }
+
+
     }
 }

@@ -13,7 +13,7 @@ namespace chatApp.Models
         public ApplicationUser Receiver { get; set; }
 
         public string? Content { get; set; }
-        public string? AudioPath { get; set; } // ✅ Buraya əlavə et
+        public string? AudioPath { get; set; } 
         public string? VideoPath { get; set; }
         public string? FilePath { get; set; }
 
@@ -21,6 +21,18 @@ namespace chatApp.Models
 
         public bool IsDeletedBySender { get; set; } = false;
         public bool IsDeletedByReceiver { get; set; } = false;
+
+        public string? Reaction { get; set; }
+        public int? ReplyToMessageId { get; set; }
+        public Message? ReplyToMessage { get; set; }
+
+        public bool IsRead { get; set; } = false;
+        public DateTime? ReadAt { get; set; }
+
+
+    
+
+
     }
 
 }

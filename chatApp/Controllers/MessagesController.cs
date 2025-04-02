@@ -27,14 +27,42 @@ namespace chatApp.Controllers
             _messageService = messageService;
         }
 
-  
         [Authorize]
         [HttpPost("send")]
         public async Task<IActionResult> SendMessage([FromBody] SendMessageRequest request)
         {
             var senderId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var message = await _messageService.SendMessageAsync(senderId, request);
-            return Ok(message);
+
+            var message = new Message
+            {
+                SenderId = senderId,
+                ReceiverId = request.ReceiverId,
+                Content = request.Content,
+                ReplyToMessageId = request.ReplyToMessageId, 
+                SentAt = DateTime.UtcNow
+            };
+
+            _context.Messages.Add(message);
+            await _context.SaveChangesAsync();
+
+            var response = _context.Messages
+                .Where(m => m.Id == message.Id)
+                .Select(m => new {
+                    m.Id,
+                    m.SenderId,
+                    m.ReceiverId,
+                    m.Content,
+                    m.SentAt,
+                    m.ReplyToMessageId,
+                    ReplyToMessage = m.ReplyToMessage != null
+                        ? new { m.ReplyToMessage.Id, m.ReplyToMessage.Content }
+                        : null
+                }).FirstOrDefault();
+
+            await _hub.Clients.User(message.ReceiverId).SendAsync("ReceiveMessage", response);
+            await _hub.Clients.User(message.SenderId).SendAsync("ReceiveMessage", response);
+
+            return Ok(response);
         }
 
 
@@ -54,7 +82,7 @@ namespace chatApp.Controllers
             return Ok(messages);
         }
 
-        // ✅ Mesajı silmək (soft-delete)
+
 
         [Authorize]
         [HttpDelete("{id}")]
@@ -225,6 +253,69 @@ namespace chatApp.Controllers
 
             return Ok(message);
         }
+
+
+        [Authorize]
+        [HttpPost("react")]
+        public async Task<IActionResult> ReactToMessage([FromBody] ReactRequest request)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var message = await _context.Messages.FindAsync(request.MessageId);
+            if (message == null)
+                return NotFound("Mesaj tapılmadı.");
+
+            message.Reaction = request.Reaction;
+            await _context.SaveChangesAsync();
+
+            await _hub.Clients.User(message.ReceiverId).SendAsync("MessageReaction", new
+            {
+                messageId = message.Id,
+                reaction = message.Reaction
+            });
+
+            await _hub.Clients.User(message.SenderId).SendAsync("MessageReaction", new
+            {
+                messageId = message.Id,
+                reaction = message.Reaction
+            });
+
+            return Ok(new { messageId = message.Id, reaction = message.Reaction });
+        }
+
+
+        [Authorize]
+        [HttpPut("{id}")]
+        public async Task<IActionResult> EditMessage(int id, [FromBody] EditMessageRequest request)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var message = await _context.Messages.FindAsync(id);
+
+            if (message == null)
+                return NotFound("Mesaj tapılmadı.");
+
+            if (message.SenderId != userId)
+                return Forbid("Yalnız öz mesajını redaktə edə bilərsən.");
+
+            message.Content = request.Content;
+            await _context.SaveChangesAsync();
+
+            await _hub.Clients.User(message.ReceiverId).SendAsync("ReceiveMessage", new
+            {
+                id = message.Id,
+                senderId = message.SenderId,
+                receiverId = message.ReceiverId,
+                content = message.Content,
+                sentAt = message.SentAt.ToString("o"),
+                reaction = message.Reaction,
+                audioPath = message.AudioPath,
+                videoPath = message.VideoPath,
+                filePath = message.FilePath
+            });
+
+            return Ok(message);
+        }
+
 
 
     }

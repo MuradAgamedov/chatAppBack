@@ -183,6 +183,9 @@ namespace chatApp.Migrations
                     b.Property<string>("Gender")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime?>("LastSeen")
+                        .HasColumnType("datetime2");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -252,9 +255,21 @@ namespace chatApp.Migrations
                     b.Property<bool>("IsDeletedBySender")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Reaction")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ReadAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("ReceiverId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<int?>("ReplyToMessageId")
+                        .HasColumnType("int");
 
                     b.Property<string>("SenderId")
                         .IsRequired()
@@ -269,6 +284,8 @@ namespace chatApp.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("ReceiverId");
+
+                    b.HasIndex("ReplyToMessageId");
 
                     b.HasIndex("SenderId");
 
@@ -334,6 +351,10 @@ namespace chatApp.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("chatApp.Models.Message", "ReplyToMessage")
+                        .WithMany()
+                        .HasForeignKey("ReplyToMessageId");
+
                     b.HasOne("chatApp.Models.ApplicationUser", "Sender")
                         .WithMany("SentMessages")
                         .HasForeignKey("SenderId")
@@ -341,6 +362,8 @@ namespace chatApp.Migrations
                         .IsRequired();
 
                     b.Navigation("Receiver");
+
+                    b.Navigation("ReplyToMessage");
 
                     b.Navigation("Sender");
                 });

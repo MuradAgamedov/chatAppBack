@@ -14,14 +14,12 @@ namespace chatApp.Data
         {
             base.OnModelCreating(builder);
 
-            // Sender → ApplicationUser (restrict cascade delete)
             builder.Entity<Message>()
                 .HasOne(m => m.Sender)
                 .WithMany(u => u.SentMessages)
                 .HasForeignKey(m => m.SenderId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Receiver → ApplicationUser (restrict cascade delete)
             builder.Entity<Message>()
                 .HasOne(m => m.Receiver)
                 .WithMany(u => u.ReceivedMessages)

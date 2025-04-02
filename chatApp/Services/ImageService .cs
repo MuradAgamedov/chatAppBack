@@ -24,6 +24,6 @@ public class ImageService : IImageService
             await file.CopyToAsync(stream);
         }
 
-        return "/" + Path.Combine("images", fileName);  // Возвращаем путь относительно корня
+        return "/" + Path.Combine("images", fileName);  
     }
 }

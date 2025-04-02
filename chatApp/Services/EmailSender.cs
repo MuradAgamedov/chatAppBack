@@ -16,7 +16,7 @@ namespace chatApp.Services
 
             var mailMessage = new MailMessage
             {
-                From = new MailAddress("info@football.biz", "Your App Name"),
+                From = new MailAddress("info@football.biz", "ChatApp"),
                 Subject = subject,
                 Body = message,
                 IsBodyHtml = true,
