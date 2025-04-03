@@ -48,12 +48,10 @@ wwwroot\images\oh5nsuqk.jj1.jpeg
 wwwroot\images\w1idyhoo.gup.png
 wwwroot\images\ywkql51j.sl4.jpg
 wwwroot\images\yzyfnfqj.u5l.png
-wwwroot\uploads\16ca89a2-86b9-48db-95dc-373903639f0b.jpg
 wwwroot\uploads\1d2878cf-fa60-4ae2-b32e-d03b6bfdc9fa.jpg
 wwwroot\uploads\9a0232f5-d2ea-4fac-93ed-3aca80e9f973.jpg
 wwwroot\uploads\9c9a9cd1-f4f6-49ff-9935-29135446e84d.jpg
 wwwroot\uploads\9e6bff18-fa43-4cd8-828e-4b8ca7aa3a6b.jpg
-wwwroot\uploads\efe6ff70-4561-49c3-a8d7-3f9e0ad1453c.jpg
 wwwroot\videos\0a1a8c0c-48f9-4ecb-85ef-5040c71662ed_videoMessage.webm
 wwwroot\videos\0f1a71ac-dd4a-48dd-8585-7efd39e19b2f_videoMessage.webm
 wwwroot\videos\17499cf7-16db-445d-b679-72f917dad4bc_videoMessage.webm

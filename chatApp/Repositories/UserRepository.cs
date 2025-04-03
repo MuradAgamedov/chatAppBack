@@ -21,23 +21,22 @@ namespace chatApp.Repositories
         }
 
 
-        public async Task<bool> UpdateUserByEmailAsync(string email, ApplicationUser user)
+        public async Task<ApplicationUser?> UpdateUserByEmailAsync(string email, ApplicationUser updatedUser)
         {
-            var existingUser = await GetUserByEmailAsync(email);
-            if (existingUser == null)
-                return false;
+            var user = _context.Users.FirstOrDefault(u => u.Email == email);
+            if (user == null) return null;
 
-            existingUser.UserName = user.UserName;
-            existingUser.FullName = user.FullName;
-            existingUser.PhoneNumber = user.PhoneNumber;
-            existingUser.AvatarUrl = user.AvatarUrl;
-            existingUser.Gender = user.Gender;
+            user.FullName = updatedUser.FullName;
+            user.UserName = updatedUser.UserName;
+            user.PhoneNumber = updatedUser.PhoneNumber;
+            user.AvatarUrl = updatedUser.AvatarUrl;
+            user.Gender = updatedUser.Gender;
 
-            _context.Users.Update(existingUser);
             await _context.SaveChangesAsync();
-
-            return true;
+            return user;
         }
+
+
 
         public async Task<IEnumerable<ApplicationUser>> GetAllUsersAsync()
         {

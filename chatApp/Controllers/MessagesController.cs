@@ -32,38 +32,10 @@ namespace chatApp.Controllers
         public async Task<IActionResult> SendMessage([FromBody] SendMessageRequest request)
         {
             var senderId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            var message = new Message
-            {
-                SenderId = senderId,
-                ReceiverId = request.ReceiverId,
-                Content = request.Content,
-                ReplyToMessageId = request.ReplyToMessageId, 
-                SentAt = DateTime.UtcNow
-            };
-
-            _context.Messages.Add(message);
-            await _context.SaveChangesAsync();
-
-            var response = _context.Messages
-                .Where(m => m.Id == message.Id)
-                .Select(m => new {
-                    m.Id,
-                    m.SenderId,
-                    m.ReceiverId,
-                    m.Content,
-                    m.SentAt,
-                    m.ReplyToMessageId,
-                    ReplyToMessage = m.ReplyToMessage != null
-                        ? new { m.ReplyToMessage.Id, m.ReplyToMessage.Content }
-                        : null
-                }).FirstOrDefault();
-
-            await _hub.Clients.User(message.ReceiverId).SendAsync("ReceiveMessage", response);
-            await _hub.Clients.User(message.SenderId).SendAsync("ReceiveMessage", response);
-
+            var response = await _messageService.SendMessageWithReplyAsync(senderId, request);
             return Ok(response);
         }
+
 
 
         [Authorize]
@@ -165,95 +137,32 @@ namespace chatApp.Controllers
         [HttpPost("upload-video")]
         public async Task<IActionResult> UploadVideo(IFormFile file, [FromForm] string receiverId)
         {
-            if (file == null || file.Length == 0)
-                return BadRequest("Video faylı boşdur.");
-
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/videos");
-
-            if (!Directory.Exists(uploadsFolder))
-                Directory.CreateDirectory(uploadsFolder);
-
-            var uniqueFileName = $"{Guid.NewGuid()}_{file.FileName}";
-            var filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-            using (var stream = new FileStream(filePath, FileMode.Create))
+            try
             {
-                await file.CopyToAsync(stream);
+                var message = await _messageService.UploadMediaAsync(userId, receiverId, file, "video");
+                return Ok(message);
             }
-
-            var message = new Message
+            catch (ArgumentException ex)
             {
-                SenderId = userId,
-                ReceiverId = receiverId,
-                Content = null,
-                AudioPath = null,
-                VideoPath = "/videos/" + uniqueFileName,
-                SentAt = DateTime.UtcNow
-            };
-
-            _context.Messages.Add(message);
-            await _context.SaveChangesAsync();
-
-            await _hub.Clients.User(receiverId).SendAsync("ReceiveMessage", new
-            {
-                id = message.Id,
-                senderId = message.SenderId,
-                receiverId = message.ReceiverId,
-                content = message.Content,
-                audioPath = message.AudioPath,
-                videoPath = message.VideoPath,
-                sentAt = message.SentAt.ToString("o")
-            });
-
-            return Ok(message);
+                return BadRequest(ex.Message);
+            }
         }
         [Authorize]
         [HttpPost("upload-file")]
         public async Task<IActionResult> UploadFile(IFormFile file, [FromForm] string receiverId)
         {
-            if (file == null || file.Length == 0)
-                return BadRequest("Fayl boşdur.");
-
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/files");
-
-            if (!Directory.Exists(uploadsFolder))
-                Directory.CreateDirectory(uploadsFolder);
-
-            var uniqueFileName = $"{Guid.NewGuid()}_{file.FileName}";
-            var filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-            using (var stream = new FileStream(filePath, FileMode.Create))
+            try
             {
-                await file.CopyToAsync(stream);
+                var message = await _messageService.UploadMediaAsync(userId, receiverId, file, "file");
+                return Ok(message);
             }
-
-            var message = new Message
+            catch (ArgumentException ex)
             {
-                SenderId = userId,
-                ReceiverId = receiverId,
-                Content = null,
-                FilePath = "/files/" + uniqueFileName,
-                SentAt = DateTime.UtcNow
-            };
-
-            _context.Messages.Add(message);
-            await _context.SaveChangesAsync();
-
-            await _hub.Clients.User(receiverId).SendAsync("ReceiveMessage", new
-            {
-                id = message.Id,
-                senderId = message.SenderId,
-                receiverId = message.ReceiverId,
-                content = message.Content,
-                filePath = message.FilePath,
-                sentAt = message.SentAt.ToString("o")
-            });
-
-            return Ok(message);
+                return BadRequest(ex.Message);
+            }
         }
-
 
         [Authorize]
         [HttpPost("react")]
@@ -314,6 +223,24 @@ namespace chatApp.Controllers
             });
 
             return Ok(message);
+        }
+        [Authorize]
+        [HttpPost("mark-as-read/{id}")]
+        public async Task<IActionResult> MarkAsRead(int id)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var message = await _context.Messages.FindAsync(id);
+
+            if (message == null)
+                return NotFound("Mesaj tapılmadı.");
+
+            if (message.ReceiverId != userId)
+                return Forbid("Yalnız qəbul etdiyin mesajı oxundu olaraq işarələyə bilərsən.");
+
+            message.IsRead = true;
+            await _context.SaveChangesAsync();
+
+            return Ok(new { messageId = message.Id, isRead = true });
         }
 
 

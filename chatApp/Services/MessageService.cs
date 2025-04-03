@@ -70,6 +70,102 @@ namespace chatApp.Services
                 .OrderBy(m => m.SentAt)
                 .ToList());
         }
+
+
+
+        public async Task<object> SendMessageWithReplyAsync(string senderId, SendMessageRequest request)
+        {
+            var message = new Message
+            {
+                SenderId = senderId,
+                ReceiverId = request.ReceiverId,
+                Content = request.Content,
+                ReplyToMessageId = request.ReplyToMessageId,
+                SentAt = DateTime.UtcNow
+            };
+
+            _context.Messages.Add(message);
+            await _context.SaveChangesAsync();
+
+            var response = _context.Messages
+                .Where(m => m.Id == message.Id)
+                .Select(m => new
+                {
+                    m.Id,
+                    m.SenderId,
+                    m.ReceiverId,
+                    m.Content,
+                    m.SentAt,
+                    m.ReplyToMessageId,
+                    ReplyToMessage = m.ReplyToMessage != null
+                        ? new { m.ReplyToMessage.Id, m.ReplyToMessage.Content }
+                        : null
+                }).FirstOrDefault();
+
+            await _hub.Clients.User(message.ReceiverId).SendAsync("ReceiveMessage", response);
+            await _hub.Clients.User(senderId).SendAsync("ReceiveMessage", response);
+
+            return response;
+        }
+
+
+        public async Task<Message> UploadMediaAsync(string senderId, string receiverId, IFormFile file, string mediaType)
+        {
+            if (file == null || file.Length == 0)
+                throw new ArgumentException($"{mediaType} faylı boşdur.");
+
+            string folder = mediaType switch
+            {
+                "video" => "videos",
+                "file" => "files",
+                _ => throw new ArgumentException("Dəstəklənməyən media növü")
+            };
+
+            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), $"wwwroot/{folder}");
+
+            if (!Directory.Exists(uploadsFolder))
+                Directory.CreateDirectory(uploadsFolder);
+
+            var uniqueFileName = $"{Guid.NewGuid()}_{file.FileName}";
+            var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+            var relativePath = $"/{folder}/{uniqueFileName}";
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            var message = new Message
+            {
+                SenderId = senderId,
+                ReceiverId = receiverId,
+                SentAt = DateTime.UtcNow
+            };
+
+            if (mediaType == "video")
+                message.VideoPath = relativePath;
+            else if (mediaType == "file")
+                message.FilePath = relativePath;
+
+            _context.Messages.Add(message);
+            await _context.SaveChangesAsync();
+
+            var payload = new
+            {
+                id = message.Id,
+                senderId = message.SenderId,
+                receiverId = message.ReceiverId,
+                content = message.Content,
+                videoPath = message.VideoPath,
+                filePath = message.FilePath,
+                sentAt = message.SentAt.ToString("o")
+            };
+
+            await _hub.Clients.User(receiverId).SendAsync("ReceiveMessage", payload);
+
+            return message;
+        }
+
     }
 
 }

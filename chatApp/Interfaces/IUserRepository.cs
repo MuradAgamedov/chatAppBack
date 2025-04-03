@@ -6,7 +6,7 @@ namespace chatApp.Interfaces
     public interface IUserRepository
     {
         Task<ApplicationUser> GetUserByEmailAsync(string email);
-        Task<bool> UpdateUserByEmailAsync(string email, ApplicationUser user);
+        Task<ApplicationUser?> UpdateUserByEmailAsync(string email, ApplicationUser user);
         Task<IEnumerable<ApplicationUser>> GetAllUsersAsync();
     }
 }

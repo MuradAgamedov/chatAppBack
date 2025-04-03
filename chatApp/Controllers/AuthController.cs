@@ -47,6 +47,8 @@ namespace chatApp.Controllers
 
             return Ok(new { message = "Çıxış uğurla tamamlandı." });
         }
+
+
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
@@ -66,6 +68,7 @@ namespace chatApp.Controllers
 
             return BadRequest(new { message = "Регистрация не удалась." });
         }
+
 
         [HttpGet("confirm-email")]
         public async Task<IActionResult> ConfirmEmailAsync([FromQuery] string token, [FromQuery] string email)

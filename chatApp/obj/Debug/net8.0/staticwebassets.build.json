@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j8OZHle5Xw8P5BD1ZYfeLsgqYTqE/Ez5zJbuxvSjt0k=",
+  "Hash": "/OFBjb5VEqiH0crorsEiaIHMU6E7bMynOK0b1FTJYQM=",
   "Source": "chatApp",
   "BasePath": "_content/chatApp",
   "Mode": "Default",
@@ -1067,27 +1067,6 @@
       "OriginalItemSpec": "wwwroot\\images\\yzyfnfqj.u5l.png"
     },
     {
-      "Identity": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\uploads\\16ca89a2-86b9-48db-95dc-373903639f0b.jpg",
-      "SourceId": "chatApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\",
-      "BasePath": "_content/chatApp",
-      "RelativePath": "uploads/16ca89a2-86b9-48db-95dc-373903639f0b#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "q60mgloey3",
-      "Integrity": "ci4YWZ5AkVMIEQobNfxMeZw91UOw7KJ+E93q2dRiJ+o=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\16ca89a2-86b9-48db-95dc-373903639f0b.jpg"
-    },
-    {
       "Identity": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\uploads\\1d2878cf-fa60-4ae2-b32e-d03b6bfdc9fa.jpg",
       "SourceId": "chatApp",
       "SourceType": "Discovered",
@@ -1170,27 +1149,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\9e6bff18-fa43-4cd8-828e-4b8ca7aa3a6b.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\uploads\\efe6ff70-4561-49c3-a8d7-3f9e0ad1453c.jpg",
-      "SourceId": "chatApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\",
-      "BasePath": "_content/chatApp",
-      "RelativePath": "uploads/efe6ff70-4561-49c3-a8d7-3f9e0ad1453c#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "a6993ap7ra",
-      "Integrity": "sjGNlzeAo4p7Mk2/3lGpjZB/9nORmwK1OVNgkImnUZM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\efe6ff70-4561-49c3-a8d7-3f9e0ad1453c.jpg"
     },
     {
       "Identity": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\0a1a8c0c-48f9-4ecb-85ef-5040c71662ed_videoMessage.webm",
@@ -5715,88 +5673,6 @@
       ]
     },
     {
-      "Route": "uploads/16ca89a2-86b9-48db-95dc-373903639f0b.jpg",
-      "AssetFile": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\uploads\\16ca89a2-86b9-48db-95dc-373903639f0b.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3545720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ci4YWZ5AkVMIEQobNfxMeZw91UOw7KJ+E93q2dRiJ+o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 21:06:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ci4YWZ5AkVMIEQobNfxMeZw91UOw7KJ+E93q2dRiJ+o="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/16ca89a2-86b9-48db-95dc-373903639f0b.q60mgloey3.jpg",
-      "AssetFile": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\uploads\\16ca89a2-86b9-48db-95dc-373903639f0b.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3545720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ci4YWZ5AkVMIEQobNfxMeZw91UOw7KJ+E93q2dRiJ+o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 21:06:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "q60mgloey3"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/16ca89a2-86b9-48db-95dc-373903639f0b.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ci4YWZ5AkVMIEQobNfxMeZw91UOw7KJ+E93q2dRiJ+o="
-        }
-      ]
-    },
-    {
       "Route": "uploads/1d2878cf-fa60-4ae2-b32e-d03b6bfdc9fa.jpg",
       "AssetFile": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\uploads\\1d2878cf-fa60-4ae2-b32e-d03b6bfdc9fa.jpg",
       "Selectors": [],
@@ -6121,88 +5997,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-ci4YWZ5AkVMIEQobNfxMeZw91UOw7KJ+E93q2dRiJ+o="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/efe6ff70-4561-49c3-a8d7-3f9e0ad1453c.a6993ap7ra.jpg",
-      "AssetFile": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\uploads\\efe6ff70-4561-49c3-a8d7-3f9e0ad1453c.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "695039"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sjGNlzeAo4p7Mk2/3lGpjZB/9nORmwK1OVNgkImnUZM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 21:11:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a6993ap7ra"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/efe6ff70-4561-49c3-a8d7-3f9e0ad1453c.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-sjGNlzeAo4p7Mk2/3lGpjZB/9nORmwK1OVNgkImnUZM="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/efe6ff70-4561-49c3-a8d7-3f9e0ad1453c.jpg",
-      "AssetFile": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\uploads\\efe6ff70-4561-49c3-a8d7-3f9e0ad1453c.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "695039"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sjGNlzeAo4p7Mk2/3lGpjZB/9nORmwK1OVNgkImnUZM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 21:11:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sjGNlzeAo4p7Mk2/3lGpjZB/9nORmwK1OVNgkImnUZM="
         }
       ]
     },

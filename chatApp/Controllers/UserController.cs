@@ -17,33 +17,41 @@ namespace chatApp.Controllers
             _imageService = imageService;
             _config = config;
         }
+
         [HttpPut("update-by-email")]
         public async Task<IActionResult> UpdateUserByEmail([FromForm] ApplicationUser user, IFormFile? avatarUrl)
         {
             if (string.IsNullOrEmpty(user.Email))
-            {
                 return BadRequest("Email не может быть пустым.");
-            }
 
             if (avatarUrl != null)
             {
                 var avatarPath = await _imageService.SaveImageAsync(avatarUrl);
-                user.AvatarUrl = avatarPath; 
+                user.AvatarUrl = avatarPath;
             }
             else if (user.AvatarUrl == null)
             {
-                user.AvatarUrl = "/images/default_user.png"; 
+                user.AvatarUrl = "/images/default_user.png";
             }
 
-            var result = await _userRepository.UpdateUserByEmailAsync(user.Email, user);
-            if (result)
+            var updatedUser = await _userRepository.UpdateUserByEmailAsync(user.Email, user);
+            if (updatedUser != null)
             {
-                user.AvatarUrl = user.AvatarUrl;
-                return Ok(user);
+              
+                var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+
+                return Ok(new
+                {
+                    token = token,
+                    user = updatedUser
+                });
             }
 
             return NotFound("Пользователь с таким email не найден.");
         }
+
+
+
 
 
         [HttpGet("all")]

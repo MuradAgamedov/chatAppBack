@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\services\\statusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\services\\statusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\interfaces\\istatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\interfaces\\istatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\interfaces\\isendmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\interfaces\\isendmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,28 +63,12 @@
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\models\\uploadstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\services\\imageservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -95,20 +119,8 @@
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|solutionrelative:chatapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36D2F4CB-542C-49D7-8D3E-EC2772071BB5}|chatApp\\chatApp.csproj|c:\\users\\techevo computers\\source\\repos\\chatapp\\chatapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -166,11 +178,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "StatusService.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Services\\StatusService.cs",
+              "RelativeDocumentMoniker": "chatApp\\Services\\StatusService.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Services\\StatusService.cs",
+              "RelativeToolTip": "chatApp\\Services\\StatusService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T18:03:22.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Interfaces\\IStatusService.cs",
+              "RelativeDocumentMoniker": "chatApp\\Interfaces\\IStatusService.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Interfaces\\IStatusService.cs",
+              "RelativeToolTip": "chatApp\\Interfaces\\IStatusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T18:03:02.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "chatApp\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Services\\MessageService.cs",
+              "RelativeToolTip": "chatApp\\Services\\MessageService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAkwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:51:35.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ISendMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Interfaces\\ISendMessageService.cs",
+              "RelativeDocumentMoniker": "chatApp\\Interfaces\\ISendMessageService.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Interfaces\\ISendMessageService.cs",
+              "RelativeToolTip": "chatApp\\Interfaces\\ISendMessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:48:09.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UploadStatusDto.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\UploadStatusDto.cs",
               "RelativeDocumentMoniker": "chatApp\\Models\\UploadStatusDto.cs",
@@ -178,12 +242,11 @@
               "RelativeToolTip": "chatApp\\Models\\UploadStatusDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T20:57:35.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T20:57:35.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Status.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\Status.cs",
               "RelativeDocumentMoniker": "chatApp\\Models\\Status.cs",
@@ -191,25 +254,28 @@
               "RelativeToolTip": "chatApp\\Models\\Status.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T20:54:44.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T20:54:44.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "StatusController.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\StatusController.cs",
               "RelativeDocumentMoniker": "chatApp\\Controllers\\StatusController.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\StatusController.cs",
               "RelativeToolTip": "chatApp\\Controllers\\StatusController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwFUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T20:54:21.238Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "EditMessageRequest.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\EditMessageRequest.cs",
               "RelativeDocumentMoniker": "chatApp\\Models\\EditMessageRequest.cs",
@@ -221,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "ReactRequest.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\ReactRequest.cs",
               "RelativeDocumentMoniker": "chatApp\\Models\\ReactRequest.cs",
@@ -233,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "20250402170030_AddReactionToMessage.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Migrations\\20250402170030_AddReactionToMessage.cs",
               "RelativeDocumentMoniker": "chatApp\\Migrations\\20250402170030_AddReactionToMessage.cs",
@@ -245,31 +311,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MessageService.cs",
-              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Services\\MessageService.cs",
-              "RelativeDocumentMoniker": "chatApp\\Services\\MessageService.cs",
-              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Services\\MessageService.cs",
-              "RelativeToolTip": "chatApp\\Services\\MessageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:57:37.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 9,
               "Title": "IMessageService.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Interfaces\\IMessageService.cs",
               "RelativeDocumentMoniker": "chatApp\\Interfaces\\IMessageService.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Interfaces\\IMessageService.cs",
               "RelativeToolTip": "chatApp\\Interfaces\\IMessageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:57:21.432Z"
+              "WhenOpened": "2025-03-25T19:57:21.432Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "SendMessageRequest.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\SendMessageRequest.cs",
               "RelativeDocumentMoniker": "chatApp\\Models\\SendMessageRequest.cs",
@@ -281,19 +336,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "MessagesController.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\MessagesController.cs",
               "RelativeDocumentMoniker": "chatApp\\Controllers\\MessagesController.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\MessagesController.cs",
               "RelativeToolTip": "chatApp\\Controllers\\MessagesController.cs",
-              "ViewState": "AgIAACsBAAAAAAAAAAAnwD4BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAkwBAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:28:58.815Z"
+              "WhenOpened": "2025-03-25T17:28:58.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "MessageHub.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Hubs\\MessageHub.cs",
               "RelativeDocumentMoniker": "chatApp\\Hubs\\MessageHub.cs",
@@ -305,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\Message.cs",
               "RelativeDocumentMoniker": "chatApp\\Models\\Message.cs",
@@ -317,19 +373,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 12,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "chatApp\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "chatApp\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:28:48.245Z"
+              "WhenOpened": "2025-03-24T22:28:48.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ywkql51j.sl4.jpg",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\ywkql51j.sl4.jpg",
               "RelativeDocumentMoniker": "chatApp\\wwwroot\\images\\ywkql51j.sl4.jpg",
@@ -340,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "20250324211810_AddAvatarAndGenderToUser7.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Migrations\\20250324211810_AddAvatarAndGenderToUser7.cs",
               "RelativeDocumentMoniker": "chatApp\\Migrations\\20250324211810_AddAvatarAndGenderToUser7.cs",
@@ -352,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "20250324211632_AddAvatarAndGenderToUser7.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Migrations\\20250324211632_AddAvatarAndGenderToUser7.cs",
               "RelativeDocumentMoniker": "chatApp\\Migrations\\20250324211632_AddAvatarAndGenderToUser7.cs",
@@ -363,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "ImageService .cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Services\\ImageService .cs",
               "RelativeDocumentMoniker": "chatApp\\Services\\ImageService .cs",
@@ -375,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "IImageService.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Interfaces\\IImageService.cs",
               "RelativeDocumentMoniker": "chatApp\\Interfaces\\IImageService.cs",
@@ -387,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "20250324202047_AddAvatarAndGenderToUser6.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Migrations\\20250324202047_AddAvatarAndGenderToUser6.cs",
               "RelativeDocumentMoniker": "chatApp\\Migrations\\20250324202047_AddAvatarAndGenderToUser6.cs",
@@ -399,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "20250324201206_AddAvatarAndGenderToUser4.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Migrations\\20250324201206_AddAvatarAndGenderToUser4.cs",
               "RelativeDocumentMoniker": "chatApp\\Migrations\\20250324201206_AddAvatarAndGenderToUser4.cs",
@@ -411,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "20250324200950_AddAvatarAndGenderToUser3.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Migrations\\20250324200950_AddAvatarAndGenderToUser3.cs",
               "RelativeDocumentMoniker": "chatApp\\Migrations\\20250324200950_AddAvatarAndGenderToUser3.cs",
@@ -423,44 +480,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "chatApp\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\UserController.cs",
               "RelativeToolTip": "chatApp\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T19:39:25.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "chatApp\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "chatApp\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:36:25.683Z"
+              "WhenOpened": "2025-03-24T19:36:25.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 2,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "chatApp\\Interfaces\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "chatApp\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:35:01.575Z"
+              "WhenOpened": "2025-03-24T19:35:01.575Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "20250324191352_AddAvatarAndGenderToUser2.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Migrations\\20250324191352_AddAvatarAndGenderToUser2.cs",
               "RelativeDocumentMoniker": "chatApp\\Migrations\\20250324191352_AddAvatarAndGenderToUser2.cs",
@@ -472,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "default_user.png",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\images\\default_user.png",
               "RelativeDocumentMoniker": "chatApp\\wwwroot\\images\\default_user.png",
@@ -483,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "20250324175007_AddAvatarAndGenderToUser1.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Migrations\\20250324175007_AddAvatarAndGenderToUser1.cs",
               "RelativeDocumentMoniker": "chatApp\\Migrations\\20250324175007_AddAvatarAndGenderToUser1.cs",
@@ -495,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "20250324174600_AddAvatarAndGenderToUser.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Migrations\\20250324174600_AddAvatarAndGenderToUser.cs",
               "RelativeDocumentMoniker": "chatApp\\Migrations\\20250324174600_AddAvatarAndGenderToUser.cs",
@@ -507,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "chatApp\\WeatherForecast.cs",
@@ -519,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "chatApp\\Models\\LoginRequest.cs",
@@ -531,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Services\\EmailSender.cs",
               "RelativeDocumentMoniker": "chatApp\\Services\\EmailSender.cs",
@@ -543,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "IEmailSender.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Services\\IEmailSender.cs",
               "RelativeDocumentMoniker": "chatApp\\Services\\IEmailSender.cs",
@@ -555,20 +614,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Program.cs",
               "RelativeDocumentMoniker": "chatApp\\Program.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Program.cs",
               "RelativeToolTip": "chatApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T09:25:01.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "chatApp\\Services\\AuthService.cs",
@@ -580,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\appsettings.json",
               "RelativeDocumentMoniker": "chatApp\\appsettings.json",
@@ -592,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "chatApp\\Models\\RegisterRequest.cs",
@@ -604,19 +663,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "chatApp\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Controllers\\AuthController.cs",
               "RelativeToolTip": "chatApp\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwJAAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:15:35.94Z"
+              "WhenOpened": "2025-03-24T09:15:35.94Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "chatApp\\Data\\ApplicationDbContext.cs",
@@ -624,12 +684,11 @@
               "RelativeToolTip": "chatApp\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:14:19.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T09:14:19.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "chatApp\\Models\\ApplicationUser.cs",
@@ -637,16 +696,11 @@
               "RelativeToolTip": "chatApp\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:13:41.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T09:13:41.806Z"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
