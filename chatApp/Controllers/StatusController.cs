@@ -47,7 +47,7 @@ namespace chatApp.Controllers
         }
 
         [Authorize]
-        [HttpGet("{email}")]
+        [HttpGet("by-email/{email}")]
         public async Task<IActionResult> GetUserStatusesByEmail(string email)
         {
             var statuses = await _statusService.GetUserStatusesByEmailAsync(email);

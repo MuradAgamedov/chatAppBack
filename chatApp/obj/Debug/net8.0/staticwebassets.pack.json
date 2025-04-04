@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets\\audio\\0f4699ed-964e-4c97-a21c-c4f3bb82fa19_voiceMessage.webm"
     },
     {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\0fbb544f-2178-4cd5-b0d8-bffa4853ce8a_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\audio\\0fbb544f-2178-4cd5-b0d8-bffa4853ce8a_voiceMessage.webm"
+    },
+    {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\1e5fffba-242f-4add-80f7-dc12429b62c2_voiceMessage.webm",
       "PackagePath": "staticwebassets\\audio\\1e5fffba-242f-4add-80f7-dc12429b62c2_voiceMessage.webm"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\2682b317-7661-41c9-aec5-81fc7cddd5b0_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\audio\\2682b317-7661-41c9-aec5-81fc7cddd5b0_voiceMessage.webm"
     },
     {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\35c587f9-9549-457a-9bdd-6237c7e3d63b_voiceMessage.webm",
@@ -47,6 +55,18 @@
     {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\4fb5cfd1-7b50-4c34-a64b-94a620452d47_voiceMessage.webm",
       "PackagePath": "staticwebassets\\audio\\4fb5cfd1-7b50-4c34-a64b-94a620452d47_voiceMessage.webm"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\5a64f6d6-8484-4e8b-a71a-d868dbb98e74_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\audio\\5a64f6d6-8484-4e8b-a71a-d868dbb98e74_voiceMessage.webm"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\5a99f238-b306-4a32-8a79-b1b9a31472ae_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\audio\\5a99f238-b306-4a32-8a79-b1b9a31472ae_voiceMessage.webm"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\6af1364c-5685-4983-b336-88bcbd91cdeb_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\audio\\6af1364c-5685-4983-b336-88bcbd91cdeb_voiceMessage.webm"
     },
     {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\6e90e0fe-2850-49fe-a8ce-15d68cd5a2b1_voiceMessage.webm",
@@ -101,6 +121,10 @@
       "PackagePath": "staticwebassets\\audio\\c90be680-e408-46fd-b27d-9412b1204160_voiceMessage.webm"
     },
     {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\d4816c6d-eeb6-42e3-9767-6c6435a22428_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\audio\\d4816c6d-eeb6-42e3-9767-6c6435a22428_voiceMessage.webm"
+    },
+    {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\d7e4f978-6deb-48b9-a4b4-7bf05d552b09_voiceMessage.webm",
       "PackagePath": "staticwebassets\\audio\\d7e4f978-6deb-48b9-a4b4-7bf05d552b09_voiceMessage.webm"
     },
@@ -113,6 +137,10 @@
       "PackagePath": "staticwebassets\\audio\\f9e27194-b2a4-4b82-8d5f-975365cfbbc6_voiceMessage.webm"
     },
     {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\audio\\fe29ddc2-1625-454f-8021-4464aa82f709_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\audio\\fe29ddc2-1625-454f-8021-4464aa82f709_voiceMessage.webm"
+    },
+    {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\files\\4dd345a6-4f0c-4300-ae6a-e1fb42aa10d2_pexels-shvets-production-8933944.jpg",
       "PackagePath": "staticwebassets\\files\\4dd345a6-4f0c-4300-ae6a-e1fb42aa10d2_pexels-shvets-production-8933944.jpg"
     },
@@ -121,12 +149,20 @@
       "PackagePath": "staticwebassets\\files\\50e3f590-5b6e-470d-9dd5-0828eefc80a0_2024-12-11 19-14-52.mkv"
     },
     {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\files\\5cb8f5f1-bf52-459e-844f-28ce8b0a9bf0_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\files\\5cb8f5f1-bf52-459e-844f-28ce8b0a9bf0_voiceMessage.webm"
+    },
+    {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\files\\7581d3c5-3c45-4f9c-a730-a71693340ef7_2024-12-11 19-14-01.mkv",
       "PackagePath": "staticwebassets\\files\\7581d3c5-3c45-4f9c-a730-a71693340ef7_2024-12-11 19-14-01.mkv"
     },
     {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\files\\7aff41d4-fe48-4f11-903c-e333d4382044_5-IT-Telecommunication-Services.jpg",
       "PackagePath": "staticwebassets\\files\\7aff41d4-fe48-4f11-903c-e333d4382044_5-IT-Telecommunication-Services.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\files\\7ec4769e-8d9d-4bde-bc23-1705372b657b_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\files\\7ec4769e-8d9d-4bde-bc23-1705372b657b_voiceMessage.webm"
     },
     {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\files\\7efead59-5f3f-4d54-af2e-dd1d5b85c462_pexels-ramonkaphotography-31266431.jpg",
@@ -147,6 +183,10 @@
     {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\files\\bc06d169-3975-4b2e-b1f7-58d4ecf3b2f8_AZ Version.pdf",
       "PackagePath": "staticwebassets\\files\\bc06d169-3975-4b2e-b1f7-58d4ecf3b2f8_AZ Version.pdf"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\files\\cd7c04d5-7a6c-4810-ad2b-0a22e9f4cfaf_5-IT-Telecommunication-Services.jpg",
+      "PackagePath": "staticwebassets\\files\\cd7c04d5-7a6c-4810-ad2b-0a22e9f4cfaf_5-IT-Telecommunication-Services.jpg"
     },
     {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\files\\e7d94a04-e446-4413-9ea3-a431270ab40b_8-Engineering-and-Design.jpg",
@@ -217,6 +257,14 @@
       "PackagePath": "staticwebassets\\uploads\\9e6bff18-fa43-4cd8-828e-4b8ca7aa3a6b.jpg"
     },
     {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\uploads\\status\\4370627d-3e8c-4d8b-89ae-2644ae167af3.mp4",
+      "PackagePath": "staticwebassets\\uploads\\status\\4370627d-3e8c-4d8b-89ae-2644ae167af3.mp4"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\uploads\\status\\acae6f5f-654b-4daa-b919-07155f722f6c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\status\\acae6f5f-654b-4daa-b919-07155f722f6c.jpg"
+    },
+    {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\0a1a8c0c-48f9-4ecb-85ef-5040c71662ed_videoMessage.webm",
       "PackagePath": "staticwebassets\\videos\\0a1a8c0c-48f9-4ecb-85ef-5040c71662ed_videoMessage.webm"
     },
@@ -245,8 +293,24 @@
       "PackagePath": "staticwebassets\\videos\\46d1206f-e094-4a0d-99e1-85aa343494ca_videoMessage.webm"
     },
     {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\48aa0687-3d16-4e93-b965-4852c3c927f5_videoMessage.webm",
+      "PackagePath": "staticwebassets\\videos\\48aa0687-3d16-4e93-b965-4852c3c927f5_videoMessage.webm"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\4e24634d-6b61-4bb5-a262-3f1b26f0f47e_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\videos\\4e24634d-6b61-4bb5-a262-3f1b26f0f47e_voiceMessage.webm"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\571b9454-a22d-41f2-b86b-8dbf9be12117_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\videos\\571b9454-a22d-41f2-b86b-8dbf9be12117_voiceMessage.webm"
+    },
+    {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\59d2ab87-63d2-4adf-b2d2-a289f959577c_videoMessage.webm",
       "PackagePath": "staticwebassets\\videos\\59d2ab87-63d2-4adf-b2d2-a289f959577c_videoMessage.webm"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\5c0b6d1d-fcd7-49ce-b2f2-8d66dbd9186d_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\videos\\5c0b6d1d-fcd7-49ce-b2f2-8d66dbd9186d_voiceMessage.webm"
     },
     {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\6e176132-f99c-4246-b218-21134cd527ed_videoMessage.webm",
@@ -259,6 +323,10 @@
     {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\969b0679-4d6a-476e-93c1-1ccfaa334b14_videoMessage.webm",
       "PackagePath": "staticwebassets\\videos\\969b0679-4d6a-476e-93c1-1ccfaa334b14_videoMessage.webm"
+    },
+    {
+      "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\9b6f7fda-6cf0-4163-8999-668cd231339a_voiceMessage.webm",
+      "PackagePath": "staticwebassets\\videos\\9b6f7fda-6cf0-4163-8999-668cd231339a_voiceMessage.webm"
     },
     {
       "Id": "C:\\Users\\TechEvo Computers\\source\\repos\\chatApp\\chatApp\\wwwroot\\videos\\9c89b7bb-bf87-444b-b95e-9a2aa6e2565d_videoMessage.webm",

@@ -487,7 +487,7 @@
         }
       }
     },
-    "/api/Status/{email}": {
+    "/api/Status/by-email/{email}": {
       "get": {
         "tags": [
           "Status"

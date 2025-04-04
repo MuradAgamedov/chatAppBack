@@ -43,6 +43,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IImageService, ImageService>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IMessageService, MessageService>();
+builder.Services.AddScoped<IStatusService, StatusService>();
 
 
 builder.Services.AddAuthentication(options =>

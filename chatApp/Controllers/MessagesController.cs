@@ -209,7 +209,7 @@ namespace chatApp.Controllers
             message.Content = request.Content;
             await _context.SaveChangesAsync();
 
-            await _hub.Clients.User(message.ReceiverId).SendAsync("ReceiveMessage", new
+            var payload = new
             {
                 id = message.Id,
                 senderId = message.SenderId,
@@ -220,10 +220,17 @@ namespace chatApp.Controllers
                 audioPath = message.AudioPath,
                 videoPath = message.VideoPath,
                 filePath = message.FilePath
-            });
+            };
 
-            return Ok(message);
+            await _hub.Clients.Users(message.SenderId, message.ReceiverId)
+                .SendAsync("ReceiveEditedMessage", payload);
+
+            return Ok(payload);
         }
+
+
+
+
         [Authorize]
         [HttpPost("mark-as-read/{id}")]
         public async Task<IActionResult> MarkAsRead(int id)

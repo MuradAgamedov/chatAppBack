@@ -274,22 +274,6 @@
   },
   {
     "ContainingType": "chatApp.Controllers.StatusController",
-    "Method": "GetUserStatusesByEmail",
-    "RelativePath": "api/Status/{email}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "email",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "chatApp.Controllers.StatusController",
     "Method": "DeleteStatus",
     "RelativePath": "api/Status/{id}",
     "HttpMethod": "DELETE",
@@ -321,6 +305,22 @@
         "Name": "File",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chatApp.Controllers.StatusController",
+    "Method": "GetUserStatusesByEmail",
+    "RelativePath": "api/Status/by-email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
